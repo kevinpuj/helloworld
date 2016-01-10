@@ -1,3 +1,26 @@
-html {
-  color: blue;
+/* HP CSS */
+
+body {
+	
 }
+
+.nav {
+	margin:0;
+	padding:0;
+}
+
+.nav li {
+	display:inline;
+	padding:0;
+	margin:0;
+}
+
+.jumbotron {
+	position: relative;
+	background: #000 url("https://scontent.ford1-1.fna.fbcdn.net/hphotos-xfa1/v/t1.0-9/427240_10100387398956236_872767422_n.jpg?oh=0f7e7c7be97a8a41ecf31b3b4653ee97&oe=57112432") center center;
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	overflow: hidden;
+}
+/* img src url https://scontent.ford1-1.fna.fbcdn.net/hphotos-xfa1/v/t1.0-9/427240_10100387398956236_872767422_n.jpg?oh=0f7e7c7be97a8a41ecf31b3b4653ee97&oe=57112432 */
