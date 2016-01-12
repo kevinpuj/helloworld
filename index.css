@@ -1,26 +1,81 @@
-/* HP CSS */
+<!-- HP HTML -->
 
-body {
-	
-}
+<!-- Import CSS libraries and jQuery libraries -->
 
-.nav {
-	margin:0;
-	padding:0;
-}
+<!DOCTYPE html>
+<html lang="en">
 
-.nav li {
-	display:inline;
-	padding:0;
-	margin:0;
-}
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
-.jumbotron {
-	position: relative;
-	background: #000 url("https://scontent.ford1-1.fna.fbcdn.net/hphotos-xfa1/v/t1.0-9/427240_10100387398956236_872767422_n.jpg?oh=0f7e7c7be97a8a41ecf31b3b4653ee97&oe=57112432") center center;
-	width: 100%;
-	height: 100%;
-	background-size: cover;
-	overflow: hidden;
-}
-/* img src url https://scontent.ford1-1.fna.fbcdn.net/hphotos-xfa1/v/t1.0-9/427240_10100387398956236_872767422_n.jpg?oh=0f7e7c7be97a8a41ecf31b3b4653ee97&oe=57112432 */
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="index.css">
+  </head>
+  <body>
+    <script type="text/javascript" src="index.js"></script>
+    
+    
+<!-- Create menu bar with links -->
+
+<ul id = "nav"> 
+  <li id = "NavHome"><a href = "#"> Home </a< </li>
+  <li id = "The Families"><a href = "#"> The Families </a< </li>
+  <li id = "Guestbook"><a href = "#"> Guestbook </a< </li>
+</ul>
+
+<!-- Create big family jumbotron -->
+
+<div class = "container">
+  <div class = "jumbotron">
+    <h1> The beautiful family </h1>
+    <p> The Pujanauski cousins are a beautiful family </p>
+  </div>
+</div>
+
+
+<!-- Create family panels -->
+
+<div class = "container">
+  <div class = "FamilyPanel">
+    <a id="BruceJeanne" href="#"><img src="http://www.freeimageslive.com/galleries/transtech/electronics/techpcb0916_small.jpg" alt=""/></a>
+    <a id="CeleMike" href="#"><img src="http://www.freeimageslive.com/galleries/light/swirl3810_small.jpg" alt=""/></a>
+    <a id="CathyMike" href="#"><img src="http://www.freeimageslive.com/galleries/objects/watch/pocketwatch0837_small.jpg" alt=""/></a>
+    <a id="PaulCindy" href="#"><img src="http://www.freeimageslive.com/galleries/festive/lights/star3813_small.jpg" alt=""/></a>
+    <a id="ThereseDoug" href="#"><img src="http://www.freeimageslive.com/galleries/food/fruitveg/peppers0676_small.jpg" alt=""/></a>
+    <a id="AmyRob" href="#"><img src="http://www.freeimageslive.com/galleries/space/earth/a17_h_148_22718_small.gif" alt=""/></a>
+    <a id="ChrisJohn" href="#"><img src="http://www.freeimageslive.com/galleries/nature/woodland/cumbriawoodland02951_small.jpg" alt=""/></a>
+    <span class="stretch"></span>
+  </div>
+</div>
+
+<!-- Create guestbook -->
+<div class="container">
+      <form>
+        <div class="form-group">
+          <textarea class="form-control status-box" rows="2" placeholder="What's on your mind?"></textarea>
+        </div>
+      </form>
+      <div class="button-group pull-right">
+        <p class="counter">140</p>
+        <a href="#" class="btn btn-primary">Post</a>
+      </div>
+    
+      <ul class="posts">
+      </ul>
+    </div>
+
+<!-- Run JS -->
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+
+
+  </body>
+</html>
