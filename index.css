@@ -55,14 +55,45 @@ width:auto;
      text-align: justify;
     -ms-text-justify: distribute-all-lines;
     text-justify: distribute-all-lines;
+
+    display: inline;
 }
 
 #FamilyPanel a {
     vertical-align: top;
-    display: inline-block;
+    display: inline;
     *display: inline;
     zoom: 1;
 }
+
+.imgWrap {
+  position: relative;
+  height: 110px;
+  width: 133px;
+  display: inline;
+}
+
+.imgDescription {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(29, 106, 154, 0.72);
+  color: #fff;
+
+  visibility: hidden;
+  opacity: 0;
+
+  -webkit-transition: visibility opacity 0.2s;
+
+}
+
+.imgWrap:hover .imgDescription {
+  visibility: visible;
+  opacity: 1;
+}
+
 .stretch {
     width: 100%;
     display: inline-block;
